@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CUTC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bfe5a24f-8945-4504-aaf3-d88168764101</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>604b0028-9300-40c8-a039-3e256d641c1b</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>b8e9105d-e91c-4ad7-9769-e38317943944</id>
+      <masked>false</masked>
+      <name>Job</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-01T09:47:41</date>
+  <millis>1564633061855</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/DB_TestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">DB_TestSuite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/DB_TestSuite</property>
+</record>
+<record>
+  <date>2019-08-01T09:47:41</date>
+  <millis>1564633061876</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = divsrini - DIVSRINI-IN.in.oracle.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">divsrini - DIVSRINI-IN.in.oracle.com</property>
+</record>
+<record>
+  <date>2019-08-01T09:47:41</date>
+  <millis>1564633061877</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-08-01T09:47:41</date>
+  <millis>1564633061878</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.7.203.162</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.7.203.162</property>
+</record>
+<record>
+  <date>2019-08-01T09:47:41</date>
+  <millis>1564633061880</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.2.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.2.0.1</property>
+</record>
+<record>
+  <date>2019-08-01T09:47:42</date>
+  <millis>1564633062303</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/DBTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/DBTestCase</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/DBTestCase</property>
+  <property name="source">C:\\Users\\divsrini\\Katalon Studio\\First APIService Proj\\Test Cases\\DBTestCase.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-08-01T09:47:42</date>
+  <millis>1564633062342</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Group_Id = TestGId8</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T09:47:42</date>
+  <millis>1564633062342</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Group_Name = TestGN8</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T09:47:42</date>
+  <millis>1564633062344</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Group_Desc = TestG8</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T09:47:42</date>
+  <millis>1564633062345</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Precedence = 111</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T09:47:43</date>
+  <millis>1564633063275</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dbConn.DemoMySql.connectDB(\&amp;quot;whf00btz.in.oracle.com\&amp;quot;, \&amp;quot;1521\&amp;quot;, \&amp;quot;PERL12CR2\&amp;quot;, \&amp;quot;nxg1_config01\&amp;quot;, \&amp;quot;password123\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-08-01T09:47:44</date>
+  <millis>1564633064962</millis>
+  <sequence>12</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>dbConn.DemoMySql.connectDB is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T09:47:44</date>
+  <millis>1564633064964</millis>
+  <sequence>13</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dbConn.DemoMySql.connectDB(\&amp;quot;whf00btz.in.oracle.com\&amp;quot;, \&amp;quot;1521\&amp;quot;, \&amp;quot;PERL12CR2\&amp;quot;, \&amp;quot;nxg1_config01\&amp;quot;, \&amp;quot;password123\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T09:47:44</date>
+  <millis>1564633064964</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : query = \&amp;quot;select * from CSSMS_GROUP_MAST where V_GROUP_CODE in (\&amp;quot; + Group_Id + \&amp;quot;)\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-08-01T09:47:44</date>
+  <millis>1564633064968</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : query = \&amp;quot;select * from CSSMS_GROUP_MAST where V_GROUP_CODE in (\&amp;quot; + Group_Id + \&amp;quot;)\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T09:47:44</date>
+  <millis>1564633064969</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;Query: \&amp;quot; + query)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-08-01T09:47:45</date>
+  <millis>1564633065003</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;Query: \&amp;quot; + query)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T09:47:45</date>
+  <millis>1564633065004</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : rs = dbConn.DemoMySql.executeQuery(query)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-08-01T09:47:45</date>
+  <millis>1564633065506</millis>
+  <sequence>20</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>java.sql.SQLSyntaxErrorException: ORA-00904: \&amp;quot;TESTGID8\&amp;quot;: invalid identifier\n</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">java.sql.SQLSyntaxErrorException</property>
+  <property name="failed.exception.stacktrace">java.sql.SQLSyntaxErrorException: ORA-00904: \&quot;TESTGID8\&quot;: invalid identifier\n\r\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)\r\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)\r\n\tat oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)\r\n\tat oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)\r\n\tat oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)\r\n\tat oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)\r\n\tat oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)\r\n\tat oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)\r\n\tat oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:762)\r\n\tat oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:925)\r\n\tat oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1111)\r\n\tat oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:1309)\r\n\tat oracle.jdbc.driver.OracleStatementWrapper.executeQuery(OracleStatementWrapper.java:422)\r\n\tat java_sql_Statement$executeQuery.call(Unknown Source)\r\n\tat dbConn.DemoMySql.executeQuery(DemoMySql.groovy:75)\r\n\tat dbConn.DemoMySql.invokeMethod(DemoMySql.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat DBTestCase.run(DBTestCase:30)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564633058133.run(TempTestSuite1564633058133.groovy:35)\r\n</property>
+  <property name="failed.exception.message">ORA-00904: \&quot;TESTGID8\&quot;: invalid identifier\n</property>
+</record>
+<record>
+  <date>2019-08-01T09:47:45</date>
+  <millis>1564633065509</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : rs = dbConn.DemoMySql.executeQuery(query)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T09:47:45</date>
+  <millis>1564633065512</millis>
+  <sequence>24</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/DBTestCase FAILED.\nReason:\norg.codehaus.groovy.runtime.InvokerInvocationException: java.sql.SQLSyntaxErrorException: ORA-00904: \&amp;quot;TESTGID8\&amp;quot;: invalid identifier\n\r\n\tat dbConn.DemoMySql.invokeMethod(DemoMySql.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat DBTestCase.run(DBTestCase:30)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564633058133.run(TempTestSuite1564633058133.groovy:35)\r\nCaused by: java.sql.SQLSyntaxErrorException: ORA-00904: \&amp;quot;TESTGID8\&amp;quot;: invalid identifier\n\r\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)\r\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)\r\n\tat oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)\r\n\tat oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)\r\n\tat oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)\r\n\tat oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)\r\n\tat oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)\r\n\tat oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)\r\n\tat oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:762)\r\n\tat oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:925)\r\n\tat oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1111)\r\n\tat oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:1309)\r\n\tat oracle.jdbc.driver.OracleStatementWrapper.executeQuery(OracleStatementWrapper.java:422)\r\n\tat java_sql_Statement$executeQuery.call(Unknown Source)\r\n\tat dbConn.DemoMySql.executeQuery(DemoMySql.groovy:75)\r\n\t... 16 more\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.runtime.InvokerInvocationException: java.sql.SQLSyntaxErrorException: ORA-00904: "TESTGID8": invalid identifier
+</message>
+    <frame>
+      <class>dbConn.DemoMySql</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>DBTestCase</class>
+      <method>run</method>
+      <line>30</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>116</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>83</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1564633058133</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">java.sql.SQLSyntaxErrorException: ORA-00904: \&quot;TESTGID8\&quot;: invalid identifier\n\r\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)\r\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)\r\n\tat oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1059)\r\n\tat oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)\r\n\tat oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)\r\n\tat oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:587)\r\n\tat oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:210)\r\n\tat oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:30)\r\n\tat oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:762)\r\n\tat oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:925)\r\n\tat oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1111)\r\n\tat oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:1309)\r\n\tat oracle.jdbc.driver.OracleStatementWrapper.executeQuery(OracleStatementWrapper.java:422)\r\n\tat java_sql_Statement$executeQuery.call(Unknown Source)\r\n\tat dbConn.DemoMySql.executeQuery(DemoMySql.groovy:75)\r\n\tat dbConn.DemoMySql.invokeMethod(DemoMySql.groovy)\r\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)\r\n\tat DBTestCase.run(DBTestCase:30)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1564633058133.run(TempTestSuite1564633058133.groovy:35)\r\n</property>
+  <property name="failed.exception.class">java.sql.SQLSyntaxErrorException</property>
+  <property name="failed.exception.message">ORA-00904: \&quot;TESTGID8\&quot;: invalid identifier\n</property>
+</record>
+<record>
+  <date>2019-08-01T09:47:45</date>
+  <millis>1564633065521</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/DBTestCase</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-08-01T09:47:45</date>
+  <millis>1564633065707</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/DB_TestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

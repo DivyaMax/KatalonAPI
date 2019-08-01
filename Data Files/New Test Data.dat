@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>New Test Data</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ee70e273-4c0f-4e15-a39f-81df1d0b1398</dataFileGUID>
+   <dataSourceUrl>jdbc:oracle:thin:@//whf00btz.in.oracle.com:1521/PERL12CR2</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>cGFzc3dvcmQxMjM=</password>
+   <query>select * from CSSMS_GROUP_MAST where V_GROUP_CODE in ('TestGId5')</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>nxg1_config01</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

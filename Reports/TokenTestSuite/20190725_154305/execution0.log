@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-07-25T15:44:59</date>
+  <millis>1564049699632</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TokenTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TokenTestSuite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TokenTestSuite</property>
+</record>
+<record>
+  <date>2019-07-25T15:44:59</date>
+  <millis>1564049699654</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = divsrini - DIVSRINI-IN.in.oracle.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">divsrini - DIVSRINI-IN.in.oracle.com</property>
+</record>
+<record>
+  <date>2019-07-25T15:44:59</date>
+  <millis>1564049699656</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-07-25T15:44:59</date>
+  <millis>1564049699657</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.7.203.162</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.7.203.162</property>
+</record>
+<record>
+  <date>2019-07-25T15:44:59</date>
+  <millis>1564049699662</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.2.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.2.0.1</property>
+</record>
+<record>
+  <date>2019-07-25T15:45:00</date>
+  <millis>1564049700272</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/UG</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/UG</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/UG</property>
+  <property name="source">C:\\Users\\divsrini\\Katalon Studio\\First APIService Proj\\Test Cases\\UG.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-07-25T15:45:01</date>
+  <millis>1564049701007</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;UserRestService/Generate Token\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-07-25T15:45:02</date>
+  <millis>1564049702530</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\divsrini\\Katalon Studio\\First APIService Proj\\Reports\\TokenTestSuite\\20190725_154305\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">638eef06-2e0f-438a-a433-1d74a3c0e225</property>
+</record>
+<record>
+  <date>2019-07-25T15:45:02</date>
+  <millis>1564049702748</millis>
+  <sequence>12</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T15:45:02</date>
+  <millis>1564049702751</millis>
+  <sequence>13</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;UserRestService/Generate Token\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T15:45:02</date>
+  <millis>1564049702753</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;response..:\&amp;quot; + response)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-07-25T15:45:02</date>
+  <millis>1564049702766</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;response..:\&amp;quot; + response)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T15:45:02</date>
+  <millis>1564049702766</millis>
+  <sequence>16</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/UG</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T15:45:02</date>
+  <millis>1564049702768</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/UG</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-07-25T15:45:02</date>
+  <millis>1564049702947</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TokenTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-07-29T17:32:23</date>
+  <millis>1564401743159</millis>
+  <sequence>407</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>dbServerInfo = Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="dbServerInfo">Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</property>
+</record>
+<record>
+  <date>2019-07-29T17:32:32</date>
+  <millis>1564401752101</millis>
+  <sequence>408</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>dbServerInfo = Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="dbServerInfo">Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</property>
+</record>
+<record>
+  <date>2019-07-29T17:32:43</date>
+  <millis>1564401763447</millis>
+  <sequence>409</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>dbServerInfo = Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="dbServerInfo">Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</property>
+</record>
+<record>
+  <date>2019-07-29T17:34:47</date>
+  <millis>1564401887452</millis>
+  <sequence>416</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>dbServerInfo = Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="dbServerInfo">Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</property>
+</record>
+<record>
+  <date>2019-07-29T17:35:43</date>
+  <millis>1564401943683</millis>
+  <sequence>423</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>dbServerInfo = Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="dbServerInfo">Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</property>
+</record>
+<record>
+  <date>2019-07-29T17:56:55</date>
+  <millis>1564403215838</millis>
+  <sequence>424</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>dbServerInfo = Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="dbServerInfo">Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</property>
+</record>
+<record>
+  <date>2019-07-30T11:45:37</date>
+  <millis>1564467337392</millis>
+  <sequence>689</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>dbServerInfo = Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="dbServerInfo">Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</property>
+</record>
+<record>
+  <date>2019-07-30T12:20:17</date>
+  <millis>1564469417152</millis>
+  <sequence>709</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>dbServerInfo = Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="dbServerInfo">Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</property>
+</record>
+<record>
+  <date>2019-07-30T12:20:37</date>
+  <millis>1564469437609</millis>
+  <sequence>710</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>dbServerInfo = Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="dbServerInfo">Oracle Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production</property>
+</record>
+</log>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AAI_DataDriven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>920e29b3-7c07-4b2e-967d-a0b1cc3dbbb8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5acf6e7-a531-47b8-b30e-6f7396e086fa</id>
+      <masked>false</masked>
+      <name>Group_Id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5228b37-f49c-4eda-bb74-4c4161c9d592</id>
+      <masked>false</masked>
+      <name>Group_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c294c933-e7c9-4074-9a1c-265b1e3f2a50</id>
+      <masked>false</masked>
+      <name>variable_1</name>
+   </variable>
+</TestCaseEntity>

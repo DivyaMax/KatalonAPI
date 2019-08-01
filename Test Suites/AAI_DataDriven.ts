@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>AAI_DataDriven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c09517c4-5058-482b-acc9-f1c69348091d</testSuiteGuid>
+   <testCaseLink>
+      <guid>80c9c647-2a8d-431a-b522-f4de7e97728b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AAI_DataDriven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>eefb864c-4eb9-4d92-8b7e-7c07efb3370f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AAIService</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0146a9e9-46eb-44e5-ae6e-7883ac723f61</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/New Test Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>eefb864c-4eb9-4d92-8b7e-7c07efb3370f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Group_Id</value>
+         <variableId>a5acf6e7-a531-47b8-b30e-6f7396e086fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eefb864c-4eb9-4d92-8b7e-7c07efb3370f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Group_Name</value>
+         <variableId>a5228b37-f49c-4eda-bb74-4c4161c9d592</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eefb864c-4eb9-4d92-8b7e-7c07efb3370f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Group_Desc</value>
+         <variableId>c294c933-e7c9-4074-9a1c-265b1e3f2a50</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

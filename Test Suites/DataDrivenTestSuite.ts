@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DataDrivenTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>b52977cb-e66e-404a-9b9a-41f0b5c2e922</testSuiteGuid>
+   <testCaseLink>
+      <guid>08e742fd-f97f-4af6-bae0-5885d79c956a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CUTC</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b83b0b0a-ec84-4c0d-bf54-b4edd72d2630</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CreateUsersTestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b83b0b0a-ec84-4c0d-bf54-b4edd72d2630</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
+         <variableId>604b0028-9300-40c8-a039-3e256d641c1b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b83b0b0a-ec84-4c0d-bf54-b4edd72d2630</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Job</value>
+         <variableId>b8e9105d-e91c-4ad7-9769-e38317943944</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
